@@ -55,3 +55,11 @@ form input[type=submit]{
 form input[type=submit]:hover{
     background-color: cadetblue;
 }
+
+form input[type=text]:focus{
+    outline: 0;
+}
+
+form input[type=password]:focus{
+    outline: 0;
+}
